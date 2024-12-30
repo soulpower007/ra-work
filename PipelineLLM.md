@@ -18,8 +18,7 @@ Original Transcripts: /scratch/projects/pichenylab/callhome_german_trans_970711/
  - python /scratch/projects/pichenylab/llmexp/get_hyp_ora_from_json_dir.py (get the hyp_spk_ora field as well in all json files)
  - python /scratch/projects/pichenylab/llmexp/combinealloutputjsonstrain.py (its all combined to 1 file)
 
- 4.
- 5./scratch/projects/pichenylab/llmexp2/speaker-id/DiarizationLM/unsloth
+4. cd /scratch/projects/pichenylab/llmexp2/speaker-id/DiarizationLM/unsloth
 
 Note:
 German data has overlapping speech and even the timestamps are overlapping, how does der work in this case and does whisper do overlapping speech?
