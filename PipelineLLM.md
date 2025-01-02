@@ -12,6 +12,9 @@ Sequence of files to run after having annotated whisper outputs.
 Whisper Outputs Section: /scratch/projects/pichenylab/callhome_ger_annotatedwhisper/train/processed_tsv/
 
 Original Transcripts: /scratch/projects/pichenylab/callhome_german_trans_970711/transcrp/train/
+2.5. Eval on the original scripts:
+ - /scratch/projects/pichenylab/llmexp/testjsondir.py
+
 
 3. Get data ready for finetuning
  - python /scratch/projects/pichenylab/llmexp/convert2json2punc.py (Aggregate reference and hyp in the same json)
@@ -23,3 +26,6 @@ Original Transcripts: /scratch/projects/pichenylab/callhome_german_trans_970711/
 Note:
 German data has overlapping speech and even the timestamps are overlapping, how does der work in this case and does whisper do overlapping speech?
  
+5. results
+   -   /scratch/projects/pichenylab/llmexp2/speaker-id/DiarizationLM/unsloth/google/DiarizationLM-13b-Fisher-v1_FISHER_LORA256_LEN4096/decoded22/checkpoint-245/FISHER
+   -   
