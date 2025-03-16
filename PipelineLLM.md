@@ -29,3 +29,17 @@ German data has overlapping speech and even the timestamps are overlapping, how 
 5. results
    -   /scratch/projects/pichenylab/llmexp2/speaker-id/DiarizationLM/unsloth/google/DiarizationLM-13b-Fisher-v1_FISHER_LORA256_LEN4096/decoded22/checkpoint-245/FISHER
    -   
+
+
+----
+
+### FISHER Data
+- Audio: /scratch/sb9179/fisher/all/all/
+- Transcripts: /scratch/sb9179/fisher/output/raw/
+- 
+
+----
+### Translation
+- https://github.com/facebookresearch/fairseq/blob/main/examples/translation/README.md
+- https://pytorch.org/hub/pytorch_fairseq_translation/
+  
