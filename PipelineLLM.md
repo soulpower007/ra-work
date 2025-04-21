@@ -36,10 +36,17 @@ German data has overlapping speech and even the timestamps are overlapping, how 
 ### FISHER Data
 - Audio: /scratch/sb9179/fisher/all/all/
 - Transcripts: /scratch/sb9179/fisher/output/raw/
-- 
+- True Transcripts: /scratch/sb9179/fisher/fe_03_p1_tran/data/trans/all
 
 ----
 ### Translation
 - https://github.com/facebookresearch/fairseq/blob/main/examples/translation/README.md
 - https://pytorch.org/hub/pytorch_fairseq_translation/
   
+
+
+----
+Fisher train saved to
+/scratch/projects/pichenylab/llmexp2/speaker-id/DiarizationLM/unsloth / google/DiarizationLM-13b-Fisher-v1_FISHER_eng_train_LORA256_LEN4096
+
+x   
